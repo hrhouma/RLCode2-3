@@ -1,72 +1,80 @@
+----------------
 # Objectif: 
+----------------
 
 - Nous allons mettre l'accent sur la démonstration de l'impact de alpha (taux d'apprentissage) dans l'algorithme Q-Learning pour le problème Mountain Car. 
 
+----------------
 # Démonstration de l'impact du taux d'apprentissage (alpha) dans Q-Learning pour Mountain Car
+----------------
 
 - Ce projet vise à illustrer l'effet du taux d'apprentissage (alpha) sur les performances d'un agent Q-Learning dans l'environnement Mountain Car de OpenAI Gym.
 
-## Prérequis
+----------------
+# Prérequis
+----------------
 
 - Python 3.7+
 - pip
 
-## Installation
+----------------
+# Installation
+----------------
 
-1. Clonez ce dépôt :
+## 1. Clonez ce dépôt :
    ```
    git clone https://github.com/hrhouma/RLCode3.git
    cd mountain-car-qlearning
    ```
 
-2. Créez un environnement virtuel :
+## 2. Créez un environnement virtuel :
    ```
    python -m venv venv
    source venv/bin/activate  # Sur Windows, utilisez `venv\Scripts\activate`
    ```
 
-3. Installez les dépendances :
+## 3. Installez les dépendances :
    ```
    pip install -r requirements.txt
    ```
 
-## Structure du projet
+# Structure du projet
 
 - `qlearning_agent.py`: Implémentation de l'agent Q-Learning
 - `helpers.py`: Fonctions utilitaires pour la discrétisation de l'état
 - `experiment.py`: Script pour exécuter les expériences avec différentes valeurs d'alpha
 - `visualize_results.py`: Script pour visualiser les résultats des expériences
 
-## Exécution des expériences
+# Exécution des expériences
 
 Pour exécuter les expériences avec différentes valeurs d'alpha :
 
 ```
-python experiment.py
+python3 experiment.py
 ```
 
 Ce script entraînera des agents avec différentes valeurs d'alpha et sauvegardera les résultats.
 
-## Visualisation des résultats
+# Visualisation des résultats
 
 Pour visualiser les résultats des expériences :
 
 ```
-python visualize_results.py
+python3 visualize_results.py
 ```
 
 Ce script générera des graphiques montrant l'impact des différentes valeurs d'alpha sur les performances de l'agent.
 
-## Interprétation des résultats
+# Interprétation des résultats
 
 - Un alpha faible (ex: 0.1) entraîne un apprentissage lent mais stable.
 - Un alpha élevé (ex: 0.9) permet un apprentissage rapide mais peut conduire à une instabilité.
 - Un alpha modéré (ex: 0.5) offre généralement un bon équilibre entre vitesse d'apprentissage et stabilité.
 
 Observez comment les différentes valeurs d'alpha affectent la vitesse de convergence et la performance finale de l'agent.
-```
 
-2. qlearning_agent.py :
+
+# 2. qlearning_agent.py :
 
 ```python
 import numpy as np
@@ -111,7 +119,7 @@ class QLearningAgent:
         return rewards_per_episode
 ```
 
-3. helpers.py (inchangé) :
+# 3. helpers.py :
 
 ```python
 import numpy as np
@@ -137,7 +145,7 @@ def discretize(state):
                         to_bin(velocity, velocity_bins)])
 ```
 
-4. experiment.py :
+# 4. experiment.py :
 
 ```python
 import gym
@@ -167,7 +175,7 @@ if __name__ == "__main__":
     print("Experiments completed. Results saved in 'experiment_results.pkl'")
 ```
 
-5. visualize_results.py :
+# 5. visualize_results.py :
 
 ```python
 import pickle
