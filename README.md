@@ -3,7 +3,7 @@
 
 ```bash
 # 1. Cloner le projet (remplacez avec l'URL de votre dépôt)
-git clone https://github.com/votre-nom/mountain-car-qlearning.git
+git clone https://github.com/votre-nom/RLCode3.git
 cd mountain-car-qlearning
 
 # 2. Créer et activer l'environnement virtuel
