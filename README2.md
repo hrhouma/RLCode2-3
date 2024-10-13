@@ -206,13 +206,14 @@ if __name__ == "__main__":
     visualize_results()
 ```
 
-6. requirements.txt :
+# 6. requirements.txt :
 
 ```
-numpy==1.21.5
-pandas==1.3.5
-gym==0.21.0
-matplotlib==3.5.1
+numpy==1.23.5
+pygame
+pandas
+gym
+matplotlib
 ```
 
 Pour exécuter cette démonstration :
