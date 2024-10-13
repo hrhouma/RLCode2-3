@@ -4,7 +4,7 @@
 ```bash
 # 1. Cloner le projet (remplacez avec l'URL de votre dépôt)
 git clone https://github.com/hrhouma/RLCode3.git
-cd mountain-car-qlearning
+cd RLCode3
 
 # 2. Créer et activer l'environnement virtuel
 python -m venv venv
