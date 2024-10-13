@@ -15,7 +15,7 @@
 
 1. Clonez ce dépôt :
    ```
-   git clone https://github.com/votre-nom/mountain-car-qlearning.git
+   git clone https://github.com/hrhouma/RLCode3.git
    cd mountain-car-qlearning
    ```
 
