@@ -20,7 +20,7 @@ python experiment.py
 python visualize_results.py
 ```
 
-Structure du projet en ASCII :
+# Structure du projet :
 
 ```
 mountain-car-qlearning/
@@ -39,7 +39,7 @@ mountain-car-qlearning/
 └── experiment_results.pkl  (généré après l'exécution)
 ```
 
-Explication de la structure :
+# Explication de la structure :
 
 - `README.md` : Instructions et explications du projet
 - `requirements.txt` : Liste des dépendances du projet
@@ -50,7 +50,7 @@ Explication de la structure :
 - `venv/` : Dossier contenant l'environnement virtuel (créé lors de l'installation)
 - `experiment_results.pkl` : Fichier de résultats généré après l'exécution des expériences
 
-Pour utiliser ce projet :
+# Pour utiliser ce projet :
 
 1. Suivez les commandes listées ci-dessus pour cloner, installer et exécuter le projet.
 2. Après avoir exécuté `experiment.py`, un fichier `experiment_results.pkl` sera généré.
