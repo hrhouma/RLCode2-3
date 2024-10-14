@@ -7,8 +7,10 @@ git clone https://github.com/hrhouma/RLCode3.git
 cd RLCode3
 
 # 2. Créer et activer l'environnement virtuel
-python -m venv venv
-source venv/bin/activate  # Sur Windows, utilisez `venv\Scripts\activate`
+python3 -m venv venv
+# Sur Linux, utilisez source venv/bin/activate
+# Sur Windows, utilisez
+venv\Scripts\activate
 
 # 3. Installer les dépendances
 pip install -r requirements.txt
