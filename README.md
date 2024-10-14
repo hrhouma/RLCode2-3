@@ -1,6 +1,12 @@
 # RLCode3
 
 
+![image](https://github.com/user-attachments/assets/e00a4cc9-388f-4c20-a043-f4ef944658b9)
+
+![image](https://github.com/user-attachments/assets/608a0e14-339c-4761-b528-4a06bc12f3f7)
+
+
+# Pratique et exécution du code 
 ```bash
 # 1. Cloner le projet (remplacez avec l'URL de votre dépôt)
 git clone https://github.com/hrhouma/RLCode3.git
